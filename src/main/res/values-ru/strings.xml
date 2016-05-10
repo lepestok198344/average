@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PDF magic</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_pdf_from_images">Создать PDF из изображений</string>
+    <string name="action_images_from_pdf">Разбить PDF на изображения</string>
+    <string name="action_pdf_list">Созданные файлы pdf</string>
+
+    <string name="progress_dialog_create_pdf">Создаю PDF</string>
+    <string name="progress_dialog_please_wait">Пожалуйста подождите</string>
+
+    <string name="button_open">Open</string>
+
+    <string name="open_file_dialog_title">Finished</string>
+    <string name="open_file_dialog_content">Pdf файл был создан</string>
+    <string name="open_file_dialog_positive">Открыть файл</string>
+    <string name="open_file_dialog_negative">Закрыть</string>
+
+    <string name="delete_file_dialog_title">Удалить</string>
+    <string name="delete_file_dialog_content">Удалить из списка</string>
+    <string name="delete_file_dialog_positive">Удалить файл</string>
+    <string name="delete_file_dialog_negative">Закрыть</string>
+
+    <string name="delete_action_negative">Невозможно удалить</string>
+    <string name="delete_action_positive">Удален</string>
+
+    <string name="select_dialog_field">Директория для изображений</string>
+    <string name="generate_button">Создать изображения</string>
+    <string name="select_file_button">Укажите PDF файл</string>
+    <string name="select_file_name">Укажите имя для изображений</string>
+    <string name="select_file_name_info">Будет использована маска [имя]-[номер страницы].[расширение]</string>
+
+    <string name="gen_images_message_field_folder">Please set folder field </string>
+    <string name="gen_images_message_field_file">Please set file field</string>
+    <string name="gen_images_message_field_name">Please set name field</string>
+
+    <string name="choose_actions_dialog_title">Do action</string>
+    <string name="choose_actions_dialog_positive">Choose</string>
+
+    <array name="actions">
+        <item name="1">Переименовать</item>
+        <item name="2">Разбить на изображения</item>
+        <item name="3">Добавить watermark</item>
+    </array>
+</resources>

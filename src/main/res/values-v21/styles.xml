@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="card.native.header_button_base.other">
+        <item name="android:src">@drawable/trash</item>
+    </style>
+
+    <!-- Other Button in Header for CardView-->
+    <style name="card.header_button_base.other">
+        <item name="android:src">@drawable/trash</item>
+    </style>
+</resources>

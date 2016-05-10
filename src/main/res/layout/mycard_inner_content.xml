@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_marginTop="2dp"
+        android:id="@+id/colorBorder"
+
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="5dp" />
+
+    <!-- Use same ID to use built-in features -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_toRightOf="@id/colorBorder"
+            android:id="@+id/card_main_inner_simple_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toStartOf="@+id/buttonOpenFile"
+            android:text="full path" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/card_main_date_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/button_open"
+
+        android:id="@+id/buttonOpenFile"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/colorBorder"
+        android:layout_below="@+id/card_main_inner_simple_title"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="10dp"
+        style="@style/do_action_button"
+        android:allowUndo="true" />
+
+    </LinearLayout>
+
